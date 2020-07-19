@@ -10,14 +10,11 @@
             <span translate>Home</span>
           </a>
           <mat-divider></mat-divider>
-          <a mat-list-item routerLink="/about" routerLinkActive="active" (click)="sidenav.close()">
+          <a mat-list-item routerLink="/qui-sommes-nous" routerLinkActive="active" (click)="sidenav.close()">
             <span translate>About</span>
           </a>
           <mat-divider></mat-divider>
-          <mat-divider></mat-divider>
-          <a mat-list-item routerLink="/team" routerLinkActive="active" (click)="sidenav.close()">
-            <span translate>Who we are</span>
-          </a>
+
           <mat-divider></mat-divider>
           <a mat-list-item routerLink="/president" routerLinkActive="active" (click)="sidenav.close()">
             <span translate>Our president</span>
@@ -28,6 +25,7 @@
     </mat-sidenav>
     <mat-sidenav-content>
       <router-outlet></router-outlet>
+      <app-footer></app-footer>
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>

@@ -11,10 +11,9 @@ import { ShellComponent } from './shell.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PresidentComponent } from '@app/president/president.component';
-import { TeamComponent } from './team/team.component';
 
 @NgModule({
   imports: [CommonModule, TranslateModule, FlexLayoutModule, MaterialModule, AuthModule, I18nModule, RouterModule],
-  declarations: [HeaderComponent, ShellComponent, FooterComponent, PresidentComponent, TeamComponent],
+  declarations: [HeaderComponent, ShellComponent, FooterComponent, PresidentComponent],
 })
 export class ShellModule {}

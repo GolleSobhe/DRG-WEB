@@ -54,8 +54,8 @@ describe('AuthenticationGuard', () => {
 
   it('should save url as queryParam if user is not authenticated', () => {
     credentialsService.credentials = null;
-    mockRouter.url = '/about';
-    mockSnapshot.url = '/about';
+    mockRouter.url = '/qui-sommes-nous';
+    mockSnapshot.url = '/abqui-sommes-nousut';
 
     authenticationGuard.canActivate(new ActivatedRouteSnapshot(), mockSnapshot);
     expect(mockRouter.navigate).toHaveBeenCalledWith(['/login'], {

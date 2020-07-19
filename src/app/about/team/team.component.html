@@ -1,0 +1,26 @@
+<div class="container">
+  <!--
+  </div> -->
+
+  <div class="row">
+    <div class="column" *ngFor="let item of team">
+      <mat-card class="profile-card">
+        <img mat-card-image src="{{ item.profileImage }}" alt="Image de profile" />
+        <mat-card-content>
+          <h1>{{ item.fullName }}</h1>
+          <h3 class="title">{{ item.post }}</h3>
+          <p>{{ item.presentation }}</p>
+
+          <div>
+            <a href="{{ item.facebookLink }}" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="{{ item.twitterLink }}" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="{{ item.youtubeLink }}" target="_blank"><i class="fa fa-youtube"></i></a>
+          </div>
+        </mat-card-content>
+        <mat-card-actions>
+          <button style="width: 100%;" mat-button>Contactez moi</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>
