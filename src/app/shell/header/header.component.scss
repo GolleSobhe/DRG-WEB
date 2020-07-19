@@ -1,0 +1,44 @@
+@import "src/theme/theme-variables";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #0000c8;
+}
+
+.brand {
+  color: mat-color($app-primary, "default-contrast");
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+a,
+mat-icon,
+span {
+  color: white !important;
+}
+
+.menu-button {
+  margin-right: 1rem;
+}
+
+.logo {
+  width: 150px;
+  margin: 0 auto;
+}
+
+#nav-logo {
+  background: url(../../../assets/images/drg-logo.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-bottom: none;
+  display: inline-block;
+  height: 90px;
+  width: 75px;
+  overflow: hidden;
+  text-indent: -999%;
+  transition: transform 0.2s ease-in-out, height 0.2s ease-in-out;
+}
