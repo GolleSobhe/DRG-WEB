@@ -9,12 +9,6 @@
   background-color: #0000c8;
 }
 
-.brand {
-  color: mat-color($app-primary, "default-contrast");
-  text-decoration: none;
-  padding-right: 1rem;
-}
-
 a,
 mat-icon,
 span {
@@ -26,19 +20,21 @@ span {
 }
 
 .logo {
-  width: 150px;
-  margin: 0 auto;
+  height: 40px;
+  margin: 0 4px 3px 0;
+  vertical-align: middle;
 }
 
-#nav-logo {
-  background: url(../../../assets/images/drg-logo.png) no-repeat;
-  background-position: center;
-  background-size: contain;
-  border-bottom: none;
-  display: inline-block;
-  height: 90px;
-  width: 75px;
-  overflow: hidden;
-  text-indent: -999%;
-  transition: transform 0.2s ease-in-out, height 0.2s ease-in-out;
+.logo:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.nav-bar-left {
+  margin-left: 10%;
+}
+
+.nav-bar-right {
+  margin-right: 10%;
 }

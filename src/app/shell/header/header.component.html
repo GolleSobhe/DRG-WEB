@@ -7,14 +7,23 @@
   </div>
 
   <div fxHide.lt-md>
-    <button mat-button routerLink="/home" routerLinkActive="active">
-      <mat-icon>home</mat-icon>
-      <a class="brand" translate>APP_NAME</a>
-    </button>
+    <span>
+      <img
+        routerLink="/home"
+        routerLinkActive="active"
+        src="assets/images/logo.jpg"
+        alt="angular"
+        class="logo mat-focus-indicator mat-button mat-button-base"
+    /></span>
 
-    <button mat-button routerLink="/qui-sommes-nous" routerLinkActive="active">
+    <button mat-button routerLink="/who-whe-are" routerLinkActive="active">
       <mat-icon>info</mat-icon>
       <span translate>About</span>
+    </button>
+
+    <button mat-button routerLink="/project" routerLinkActive="active">
+      <mat-icon>emoji_objects</mat-icon>
+      <span translate>Our project</span>
     </button>
 
     <button mat-button routerLink="/president" routerLinkActive="active">
@@ -22,11 +31,15 @@
       <span translate>Our president</span>
     </button>
   </div>
+
   <span fxFlex></span>
+
   <app-language-selector icon="true"></app-language-selector>
+
   <button mat-icon-button [matMenuTriggerFor]="userMenu">
     <mat-icon>person</mat-icon>
   </button>
+
   <mat-menu #userMenu="matMenu">
     <mat-list>
       <mat-list-item>
