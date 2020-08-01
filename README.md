@@ -1,5 +1,7 @@
 # drg-web
 
+Deploiement : https://gollesobhe.github.io/DRG-WEB/
+
 This project was generated with [ngX-Rocket](https://github.com/ngx-rocket/generator-ngx-rocket/)
 version 8.0.0
 
