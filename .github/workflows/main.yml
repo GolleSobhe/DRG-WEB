@@ -32,4 +32,4 @@ jobs:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
       run: |
         npm install
-        npm run env -s && npm run ng -- deploy --base-href=/DRG-WEB/
+        npm run env -s && npm run ng -- deploy --base-href=/DRG-WEB/ --name=kikalaSobhe --email=diallo.elhadjtelly@gmail.com
