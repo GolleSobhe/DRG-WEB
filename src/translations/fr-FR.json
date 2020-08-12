@@ -5,13 +5,19 @@
   "Home": "Accueil",
   "Logged in as": "Connecté en tant que",
   "Login": "Connexion",
+  "Rgister": "Créer un compte",
   "Logout": "Déconnexion",
   "Password": "Mot de passe",
   "Password is required": "Mot de passe requis",
-  "Username": "Identifiant",
-  "Username is required": "Identifiant requis",
+  "Username": "Nom complet",
+  "Username is required": "Nom requis",
   "Username or password incorrect.": "Identifiant ou mot de passe incorrect.",
+  "Email": "Email",
+  "Email is required": "Email requis",
+  "City": "Ville",
   "Remember me": "Rester connecté",
   "Version": "Version",
-  "Our project": "Notre projet"
+  "Our project": "Notre projet",
+  "Our president": "Notre président",
+  "Language": "Langue"
 }

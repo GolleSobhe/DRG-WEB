@@ -11,9 +11,29 @@ import { ShellComponent } from './shell.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PresidentComponent } from '@app/president/president.component';
+import { SharedModule } from '@app/@shared';
+import { RegisterComponent } from '@app/register/register.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from '../login/login.component';
 
 @NgModule({
-  imports: [CommonModule, TranslateModule, FlexLayoutModule, MaterialModule, AuthModule, I18nModule, RouterModule],
-  declarations: [HeaderComponent, ShellComponent, FooterComponent, PresidentComponent],
+  imports: [
+    CommonModule,
+    TranslateModule,
+    FlexLayoutModule,
+    MaterialModule,
+    I18nModule,
+    RouterModule,
+    SharedModule,
+    ReactiveFormsModule,
+  ],
+  declarations: [
+    HeaderComponent,
+    ShellComponent,
+    FooterComponent,
+    PresidentComponent,
+    RegisterComponent,
+    LoginComponent,
+  ],
 })
 export class ShellModule {}

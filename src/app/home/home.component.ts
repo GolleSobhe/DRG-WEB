@@ -3,6 +3,7 @@ import { finalize } from 'rxjs/operators';
 
 import { QuoteService } from './quote.service';
 import { DomSanitizer } from '@angular/platform-browser';
+import { AuthenticationService } from '@app/auth';
 
 @Component({
   selector: 'app-home',
@@ -18,6 +19,7 @@ export class HomeComponent implements OnInit {
   constructor(private quoteService: QuoteService, private _sanitizer: DomSanitizer) {}
 
   ngOnInit() {
+    console.log('home component');
     this.isLoading = true;
     this.safeUrl = this._sanitizer.bypassSecurityTrustResourceUrl(this.displayURL);
     this.quoteService

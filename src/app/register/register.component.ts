@@ -5,16 +5,16 @@ import { finalize } from 'rxjs/operators';
 
 import { environment } from '@env/environment';
 import { Logger, untilDestroyed } from '@core';
-import { AuthenticationService } from './authentication.service';
+import { AuthenticationService } from '@app/auth';
 
 const log = new Logger('Login');
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss'],
+  selector: 'app-register',
+  templateUrl: './register.component.html',
+  styleUrls: ['./register.component.scss'],
 })
-export class LoginComponent implements OnInit, OnDestroy {
+export class RegisterComponent implements OnInit {
   version: string | null = environment.version;
   error: string | undefined;
   loginForm!: FormGroup;
@@ -30,8 +30,6 @@ export class LoginComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {}
-
-  ngOnDestroy() {}
 
   login() {
     this.isLoading = true;
@@ -59,6 +57,8 @@ export class LoginComponent implements OnInit, OnDestroy {
   private createForm() {
     this.loginForm = this.formBuilder.group({
       username: ['', Validators.required],
+      email: ['', Validators.required],
+      city: ['', Validators.nullValidator],
       password: ['', Validators.required],
       remember: true,
     });

@@ -5,13 +5,19 @@
   "Home": "Home",
   "Logged in as": "Logged in as",
   "Login": "Login",
+  "Rgister": "Create an account",
   "Logout": "Logout",
   "Password": "Password",
   "Password is required": "Password is required",
-  "Username": "Username",
-  "Username is required": "Username is required",
+  "Username": "Full name",
+  "Username is required": "Full name is required",
   "Username or password incorrect.": "Username or password incorrect.",
+  "Email": "Email",
+  "Email is required": "Email is required",
+  "City": "City",
   "Remember me": "Remember me",
   "Version": "Version",
-  "Our project": "Our project"
+  "Our project": "Our project",
+  "Our president": "Our president",
+  "Language": "Language"
 }

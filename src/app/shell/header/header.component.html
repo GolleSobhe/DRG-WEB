@@ -11,7 +11,7 @@
       <img
         routerLink="/home"
         routerLinkActive="active"
-        src="assets/images/logo.jpg"
+        src="assets/images/logo.jpeg"
         alt="angular"
         class="logo mat-focus-indicator mat-button mat-button-base"
     /></span>
@@ -30,13 +30,23 @@
       <mat-icon>emoji_emotions</mat-icon>
       <span translate>Our president</span>
     </button>
+
+    <button mat-button routerLink="/register" routerLinkActive="active">
+      <mat-icon>person</mat-icon>
+      <span translate>Rgister</span>
+    </button>
   </div>
 
   <span fxFlex></span>
 
-  <app-language-selector icon="true"></app-language-selector>
+  <app-language-selector icon="true" translate></app-language-selector>
 
-  <button mat-icon-button [matMenuTriggerFor]="userMenu">
+  <button mat-button routerLink="/login" routerLinkActive="active">
+    <mat-icon>person</mat-icon>
+    <span translate>Login</span>
+  </button>
+
+  <!-- <button mat-icon-button [matMenuTriggerFor]="userMenu">
     <mat-icon>person</mat-icon>
   </button>
 
@@ -48,5 +58,5 @@
       <mat-divider></mat-divider>
     </mat-list>
     <button mat-menu-item (click)="logout()" translate>Logout</button>
-  </mat-menu>
+  </mat-menu> -->
 </mat-toolbar>
