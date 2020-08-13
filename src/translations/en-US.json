@@ -19,5 +19,7 @@
   "Version": "Version",
   "Our project": "Our project",
   "Our president": "Our president",
-  "Language": "Language"
+  "Language": "Language",
+  "en-US": "English",
+  "fr-FR": "French"
 }
