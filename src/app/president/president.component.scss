@@ -1,0 +1,28 @@
+.container {
+  padding-top: 1rem;
+  margin: auto 10%;
+}
+
+.mat-icon {
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100% !important;
+  height: 5% !important;
+}
+
+.mat-stepper-vertical {
+  margin-top: 8px;
+}
+
+.mat-form-field {
+  margin-top: 16px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-top: 1rem;
+    margin: auto;
+  }
+}
