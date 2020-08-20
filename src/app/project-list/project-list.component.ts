@@ -10,27 +10,32 @@ export class ProjectListComponent implements OnInit {
     {
       title: 'La justice',
       pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor ',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
     },
     {
       title: "L'éducation",
       pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor ',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
     },
     {
       title: "L'agriculture",
       pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor ',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
     },
     {
       title: "L'environnement",
       pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor ',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
     },
     {
       title: 'La santé',
       pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor ',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
     },
     {
       title: 'Le plan de protection sociale',
@@ -43,7 +48,7 @@ export class ProjectListComponent implements OnInit {
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor ',
     },
     {
-      title: 'Les infrastructures et les travaux public',
+      title: 'Les infrastructures et les TP',
       pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor ',
     },
