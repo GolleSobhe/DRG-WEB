@@ -13,9 +13,8 @@ import { AuthenticationService } from '@app/auth';
 export class HomeComponent implements OnInit {
   quote: string | undefined;
   isLoading = false;
-  displayURL = 'https://www.youtube.com/embed/f1fOA1I0zqI';
+  displayURL = 'https://www.youtube.com/embed/ZiX_Fp8mw0E';
   safeUrl: any;
-
   constructor(private quoteService: QuoteService, private _sanitizer: DomSanitizer) {}
 
   ngOnInit() {
