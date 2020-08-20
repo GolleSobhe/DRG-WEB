@@ -7,8 +7,6 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./president.component.scss'],
 })
 export class PresidentComponent implements OnInit {
-  isLinear = false;
-
   constructor() {}
 
   ngOnInit() {}

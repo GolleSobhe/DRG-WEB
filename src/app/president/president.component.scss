@@ -8,21 +8,14 @@
 }
 
 img {
-  max-width: 100% !important;
-  height: 5% !important;
-}
-
-.mat-stepper-vertical {
-  margin-top: 8px;
-}
-
-.mat-form-field {
-  margin-top: 16px;
+  width: 40% !important;
+  height: 10%;
+  display: block;
+  margin: auto;
 }
 
 @media (max-width: 600px) {
-  .container {
-    padding-top: 1rem;
-    margin: auto;
+  img {
+    width: 90% !important;
   }
 }
