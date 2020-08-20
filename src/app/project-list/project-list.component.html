@@ -1,0 +1,42 @@
+<div class="container">
+  <h1 style="text-align: center;">Consultez nos différents projets</h1>
+
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor ligula eget laoreet sodales. Ut eget nisi
+    pretium, consequat dolor at, semper ligula. Cras eros justo, egestas et posuere id, vehicula eu libero. Duis sit
+    amet lacinia orci. Mauris vehicula risus in ligula rutrum, et bibendum nibh suscipit. Suspendisse nec lacinia metus.
+    Suspendisse varius condimentum nisl, in vulputate sapien fringilla non.
+  </p>
+  <p>
+    Cras dignissim augue a quam placerat, in faucibus sapien luctus. Vestibulum quis nisi pulvinar dolor cursus volutpat
+    vel ac enim. Maecenas urna purus, placerat sit amet laoreet a, porta sit amet nunc. Sed in mi lectus. Aenean neque
+    tortor, placerat id tristique a, dictum eget est. Donec scelerisque velit sed arcu pulvinar consequat. Quisque
+    rhoncus at nibh id fermentum. Sed faucibus interdum scelerisque. Pellentesque non nisl non nisi hendrerit egestas
+    eget ac sapien. Curabitur eu vehicula ipsum, in laoreet urna. Nulla nec erat eu libero congue commodo quis sed
+    sapien. Nunc a massa in mi pretium interdum at eget ante.
+  </p>
+
+  <p>
+    Sed id sapien faucibus, pellentesque mauris nec, vestibulum sem. Phasellus volutpat tincidunt dignissim. Nunc
+    condimentum, leo eget fringilla lobortis, justo nunc dapibus mauris, ac interdum libero dolor quis odio. Etiam
+    mattis nulla vel ornare egestas. Sed libero arcu, bibendum in odio eu, suscipit pellentesque magna. Aliquam sed
+    vestibulum dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus est sem, id eleifend orci
+    varius sed. Phasellus nec pharetra turpis, ullamcorper aliquam magna. Sed purus eros, pellentesque at varius sit
+    amet, luctus ut est. Sed consectetur ipsum eget leo gravida, eu feugiat odio luctus. Nullam elementum sem a
+    elementum tempor. Sed elementum viverra velit in condimentum. Maecenas eu porta leo. Sed mauris ipsum, pharetra et
+    mauris a, tincidunt semper dui. Curabitur laoreet metus sit amet mollis scelerisque.
+  </p>
+  <div class="row">
+    <div class="column" *ngFor="let item of team">
+      <mat-card class="profile-card">
+        <mat-card-content>
+          <h1>{{ item.title }}</h1>
+          <p>{{ item.description }}</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button style="width: 100%;" mat-button>Consulter</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>

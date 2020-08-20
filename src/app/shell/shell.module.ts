@@ -15,6 +15,9 @@ import { SharedModule } from '@app/@shared';
 import { RegisterComponent } from '@app/register/register.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from '../login/login.component';
+import { ProjectListComponent } from '../project-list/project-list.component';
+import { ProjectItemComponent } from '../project-item/project-item.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 @NgModule({
   imports: [
@@ -25,6 +28,7 @@ import { LoginComponent } from '../login/login.component';
     I18nModule,
     RouterModule,
     SharedModule,
+    PdfViewerModule,
     ReactiveFormsModule,
   ],
   declarations: [
@@ -34,6 +38,8 @@ import { LoginComponent } from '../login/login.component';
     PresidentComponent,
     RegisterComponent,
     LoginComponent,
+    ProjectListComponent,
+    ProjectItemComponent,
   ],
 })
 export class ShellModule {}
