@@ -6,10 +6,11 @@ import { MaterialModule } from '@app/material.module';
 import { LoaderComponent } from './loader/loader.component';
 import { ElevationDirective } from './elevation.directive';
 import { SocialIconsComponent } from './social-icons/social-icons.component';
+import { DialogModalComponent } from './dialog-modal/dialog-modal.component';
 
 @NgModule({
   imports: [FlexLayoutModule, MaterialModule, CommonModule],
-  declarations: [LoaderComponent, ElevationDirective, SocialIconsComponent],
+  declarations: [LoaderComponent, ElevationDirective, SocialIconsComponent, DialogModalComponent],
   exports: [LoaderComponent, SocialIconsComponent, ElevationDirective],
 })
 export class SharedModule {}

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { DialogModalComponent } from '@app/@shared/dialog-modal/dialog-modal.component';
 
 @Component({
   selector: 'app-project-list',
@@ -55,7 +57,16 @@ export class ProjectListComponent implements OnInit {
   ];
 
   pdfUrl = 'https://vadimdez.github.io/ng2-pdf-viewer/assets/pdf-test.pdf';
-  constructor() {}
+
+  constructor(public dialog: MatDialog) {}
+
+  openDialog() {
+    const dialogRef = this.dialog.open(DialogModalComponent);
+
+    dialogRef.afterClosed().subscribe((result) => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
 
   ngOnInit(): void {}
 }

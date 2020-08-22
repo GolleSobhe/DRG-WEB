@@ -1,0 +1,25 @@
+<h2 mat-dialog-title>Accès à nos différents projets</h2>
+<mat-dialog-content class="mat-typography">
+  <h3>Sous titre ...</h3>
+
+  <p>
+    Expliquez ici que l'ensemble des projets seront accessible prochainement ... Expliquez ici que l'ensemble des
+    projets seront accessible prochainement ... Expliquez ici que l'ensemble des projets seront accessible prochainement
+    ... Expliquez ici que l'ensemble des projets seront accessible prochainement ... Expliquez ici que l'ensemble des
+    projets seront accessible prochainement ...
+  </p>
+
+  <iframe
+    style="margin-top: 30px;"
+    id="videoWrapper"
+    allowfullscreen
+    type="text/html"
+    width="100%"
+    height="300"
+    [src]="safeUrl"
+    frameborder="0"
+  ></iframe>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Ok</button>
+</mat-dialog-actions>
