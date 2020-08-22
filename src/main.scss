@@ -29,3 +29,14 @@
 .drg-color {
   color: #0000c8;
 }
+
+.container {
+  padding-top: 1%;
+  margin: auto 15%;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: auto 5%;
+  }
+}
