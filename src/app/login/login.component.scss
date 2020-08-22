@@ -20,7 +20,7 @@
 }
 
 .login-fields > :not(:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .login-error {
@@ -28,6 +28,12 @@
 }
 
 .container {
-  padding-top: 2rem;
-  padding-bottom: 30px;
+  padding-top: 190px;
+  padding-bottom: 250px;
+}
+
+.icons {
+  margin-left: auto;
+  margin-top: 2%;
+  margin-right: 5%;
 }

@@ -17,7 +17,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from '../login/login.component';
 import { ProjectListComponent } from '../project-list/project-list.component';
 import { ProjectItemComponent } from '../project-item/project-item.component';
-import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 @NgModule({
   imports: [
@@ -28,7 +27,6 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
     I18nModule,
     RouterModule,
     SharedModule,
-    PdfViewerModule,
     ReactiveFormsModule,
   ],
   declarations: [
