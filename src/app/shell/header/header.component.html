@@ -30,14 +30,14 @@
       <span translate>Our president</span>
     </button>
 
-    <button mat-button routerLink="/register" routerLinkActive="active">
-      <mat-icon>person</mat-icon>
-      <span translate>Register</span>
-    </button>
-
     <button mat-button routerLink="/" routerLinkActive="active">
       <mat-icon>signal_wifi_4_bar_lock</mat-icon>
       <span translate>News</span>
+    </button>
+
+    <button *ngIf="!token" mat-button routerLink="/register" routerLinkActive="active">
+      <mat-icon>person</mat-icon>
+      <span translate>Register</span>
     </button>
   </div>
 
@@ -45,10 +45,19 @@
 
   <app-language-selector translate></app-language-selector>
 
-  <button mat-button routerLink="/login" routerLinkActive="active">
-    <mat-icon>person</mat-icon>
-    <span translate>Login</span>
-  </button>
+  <div *ngIf="token; else logoutButon">
+    <button mat-button (click)="logout()" routerLinkActive="active">
+      <mat-icon>exit_to_app</mat-icon>
+      <span translate>Logout</span>
+    </button>
+  </div>
+
+  <ng-template #logoutButon>
+    <button mat-button routerLink="/login" routerLinkActive="active">
+      <mat-icon>lock</mat-icon>
+      <span translate>Login</span>
+    </button>
+  </ng-template>
 
   <!-- <button mat-icon-button [matMenuTriggerFor]="userMenu">
     <mat-icon>person</mat-icon>

@@ -31,6 +31,10 @@ export class HeaderComponent implements OnInit {
     return credentials ? credentials.username : null;
   }
 
+  get token() {
+    return this.credentialsService.credentials && this.credentialsService.credentials.token;
+  }
+
   get title(): string {
     return this.titleService.getTitle();
   }
