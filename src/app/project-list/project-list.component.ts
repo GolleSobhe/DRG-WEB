@@ -10,25 +10,7 @@ import { DialogModalComponent } from '@app/@shared/dialog-modal/dialog-modal.com
 export class ProjectListComponent implements OnInit {
   team = [
     {
-      title: 'La justice',
-      pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
-    },
-    {
       title: "L'éducation",
-      pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
-    },
-    {
-      title: "L'agriculture",
-      pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
-    },
-    {
-      title: "L'environnement",
       pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
@@ -39,6 +21,25 @@ export class ProjectListComponent implements OnInit {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
     },
+
+    {
+      title: "L'agriculture",
+      pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
+    },
+    {
+      title: 'La justice',
+      pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
+    },
+    {
+      title: 'Les infrastructures et les TP',
+      pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor ',
+    },
+
     {
       title: 'Le plan de protection sociale',
       pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
@@ -50,9 +51,10 @@ export class ProjectListComponent implements OnInit {
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor ',
     },
     {
-      title: 'Les infrastructures et les TP',
+      title: "L'environnement",
       pdfUrl: 'assets/pdf/DRG_plan_de_protection_sociale.pdf',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor ',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porttitor Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
     },
   ];
 

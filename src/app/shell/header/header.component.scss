@@ -10,7 +10,7 @@
 }
 
 a,
-mat-icon,
+.mat-icon-color,
 span {
   color: white !important;
 }
@@ -37,4 +37,12 @@ span {
 
 .nav-bar-right {
   margin-right: 10%;
+}
+
+.mat-menu-item {
+  color: black;
+}
+
+.donate-button {
+  color: red !important;
 }

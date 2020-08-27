@@ -30,6 +30,14 @@
             <span translate>Our president</span>
           </a>
           <mat-divider></mat-divider>
+          <a mat-list-item routerLink="/chart" routerLinkActive="active" (click)="sidenav.close()">
+            <span translate>Our chart</span>
+          </a>
+          <mat-divider></mat-divider>
+          <a mat-list-item routerLink="/donate" routerLinkActive="active" (click)="sidenav.close()">
+            <span translate>Donate</span>
+          </a>
+          <mat-divider></mat-divider>
         </mat-list>
       </nav>
     </mat-sidenav>

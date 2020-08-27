@@ -9,7 +9,7 @@ import { ProjectListComponent } from './project-list/project-list.component';
 
 const routes: Routes = [
   Shell.childRoutes([
-    { path: 'who-whe-are', loadChildren: () => import('./about/about.module').then((m) => m.AboutModule) },
+    { path: 'who-we-are', loadChildren: () => import('./about/about.module').then((m) => m.AboutModule) },
     { path: 'president', component: PresidentComponent, data: { title: extract('President') } },
     { path: 'login', component: LoginComponent, data: { title: extract('Login') } },
     { path: 'register', component: RegisterComponent, data: { title: extract('Register') } },
