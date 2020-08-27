@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class TeamComponent implements OnInit {
   team = [
     {
-      profileImage: 'assets/images/abdou.jpg',
+      profileImage: 'assets/images/s-c-president.jpeg',
       fullName: 'Souleymane CONDE',
       post: 'Président',
       presentation:
@@ -18,7 +18,7 @@ export class TeamComponent implements OnInit {
       youtubeLink: 'https://www.youtube.com/results?search_query=souleymane+conde',
     },
     {
-      profileImage: 'assets/images/abdou.jpg',
+      profileImage: 'assets/images/s-c-president.jpeg',
       fullName: 'Mohamed Lamine GUIRASSY',
       post: 'Président',
       presentation:
@@ -28,7 +28,7 @@ export class TeamComponent implements OnInit {
       youtubeLink: 'https://www.youtube.com/results?search_query=souleymane+conde',
     },
     {
-      profileImage: 'assets/images/abdou.jpg',
+      profileImage: 'assets/images/s-c-president.jpeg',
       fullName: 'Aboubacar DOUMBOUYA',
       post: 'Président',
       presentation:
@@ -38,7 +38,7 @@ export class TeamComponent implements OnInit {
       youtubeLink: 'https://www.youtube.com/results?search_query=souleymane+conde',
     },
     {
-      profileImage: 'assets/images/abdou.jpg',
+      profileImage: 'assets/images/s-c-president.jpeg',
       fullName: 'Ismael SYLLA',
       post: 'Président',
       presentation:
@@ -48,7 +48,7 @@ export class TeamComponent implements OnInit {
       youtubeLink: 'https://www.youtube.com/results?search_query=souleymane+conde',
     },
     {
-      profileImage: 'assets/images/abdou.jpg',
+      profileImage: 'assets/images/s-c-president.jpeg',
       fullName: 'Oumar Migdad BAH',
       post: 'Président',
       presentation:
@@ -58,7 +58,7 @@ export class TeamComponent implements OnInit {
       youtubeLink: 'https://www.youtube.com/results?search_query=souleymane+conde',
     },
     {
-      profileImage: 'assets/images/abdou.jpg',
+      profileImage: 'assets/images/s-c-president.jpeg',
       fullName: 'Alpha BALDE',
       post: 'Président',
       presentation:
@@ -68,7 +68,7 @@ export class TeamComponent implements OnInit {
       youtubeLink: 'https://www.youtube.com/results?search_query=souleymane+conde',
     },
     {
-      profileImage: 'assets/images/abdou.jpg',
+      profileImage: 'assets/images/s-c-president.jpeg',
       fullName: 'Aliou BARRY',
       post: 'Président',
       presentation:
