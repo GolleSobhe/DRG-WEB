@@ -6,40 +6,38 @@
   </div>
 
   <div fxHide.lt-md>
-    <span>
-      <img
-        routerLink="/home"
-        routerLinkActive="active"
-        src="assets/images/logo.jpeg"
-        alt="angular"
-        class="logo mat-focus-indicator mat-button mat-button-base"
-      />DRG</span
-    >
+    <button mat-button routerLink="/" routerLinkActive="active">
+      <img src="assets/images/logo.jpeg" alt="DRG" class="logo mat-focus-indicator mat-button mat-button-base" /><span
+        ><strong>DRG</strong></span
+      >
+    </button>
 
     <button mat-button [matMenuTriggerFor]="menu" routerLinkActive="active">
-      <mat-icon class="mat-icon-color">info</mat-icon>
+      <fa-icon [icon]="faUsers"></fa-icon>
       <span translate>Our movement</span>
     </button>
 
     <mat-menu #menu="matMenu">
-      <button mat-menu-item routerLink="/who-we-are" translate><mat-icon>thumb_up_alt</mat-icon> About</button>
-      <button mat-menu-item routerLink="/president" translate><mat-icon>thumb_up_alt</mat-icon> Our president</button>
-      <button mat-menu-item routerLink="/chart" translate><mat-icon>thumb_up_alt</mat-icon> Our chart</button>
-      <button mat-menu-item routerLink="/projects" translate><mat-icon>thumb_up_alt</mat-icon> Our projects</button>
+      <button mat-menu-item routerLink="/who-we-are" translate><fa-icon [icon]="faInfoCircle"></fa-icon> About</button>
+      <button mat-menu-item routerLink="/president" translate><fa-icon [icon]="faUser"></fa-icon> Our president</button>
+      <button mat-menu-item routerLink="/chart" translate><fa-icon [icon]="faChartPie"></fa-icon> Our chart</button>
+      <button mat-menu-item routerLink="/projects" translate>
+        <fa-icon [icon]="faProjectDiagram"></fa-icon> Our projects
+      </button>
     </mat-menu>
 
     <button mat-button routerLink="/" routerLinkActive="active">
-      <mat-icon class="mat-icon-color">thumb_up_alt</mat-icon>
+      <fa-icon [icon]="faNewspaper"></fa-icon>
       <span translate>News</span>
     </button>
 
     <button *ngIf="!token" mat-button routerLink="/register" routerLinkActive="active">
-      <mat-icon class="mat-icon-color">person_add</mat-icon>
+      <fa-icon [icon]="faUserPlus"></fa-icon>
       <span translate>Register</span>
     </button>
 
-    <button mat-button class="donate-button" routerLink="/donate" routerLinkActive="active">
-      <mat-icon class="mat-icon-color">thumb_up_alt</mat-icon>
+    <button color="white" mat-button routerLink="/donate" routerLinkActive="active">
+      <fa-icon [icon]="faDonate"></fa-icon>
       <span translate>Donate</span>
     </button>
   </div>
@@ -50,14 +48,14 @@
 
   <div *ngIf="token; else logoutButon">
     <button mat-button (click)="logout()" routerLinkActive="active">
-      <mat-icon class="mat-icon-color">exit_to_app</mat-icon>
+      <fa-icon [icon]="faSignOutAlt"></fa-icon>
       <span translate>Logout</span>
     </button>
   </div>
 
   <ng-template #logoutButon>
     <button mat-button routerLink="/login" routerLinkActive="active">
-      <mat-icon class="mat-icon-color">lock</mat-icon>
+      <fa-icon [icon]="faSignInAlt"></fa-icon>
       <span translate>Login</span>
     </button>
   </ng-template>

@@ -7,9 +7,9 @@ import { LoaderComponent } from './loader/loader.component';
 import { ElevationDirective } from './elevation.directive';
 import { SocialIconsComponent } from './social-icons/social-icons.component';
 import { DialogModalComponent } from './dialog-modal/dialog-modal.component';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
-  imports: [FlexLayoutModule, MaterialModule, CommonModule],
+  imports: [FlexLayoutModule, MaterialModule, CommonModule, FontAwesomeModule],
   declarations: [LoaderComponent, ElevationDirective, SocialIconsComponent, DialogModalComponent],
   exports: [LoaderComponent, SocialIconsComponent, ElevationDirective],
 })

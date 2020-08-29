@@ -17,6 +17,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from '../login/login.component';
 import { ProjectListComponent } from '../project-list/project-list.component';
 import { ProjectItemComponent } from '../project-item/project-item.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   imports: [
@@ -27,6 +28,7 @@ import { ProjectItemComponent } from '../project-item/project-item.component';
     I18nModule,
     RouterModule,
     SharedModule,
+    FontAwesomeModule,
     ReactiveFormsModule,
   ],
   declarations: [

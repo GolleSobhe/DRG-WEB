@@ -4,7 +4,7 @@
 </button>
 
 <mat-menu #languageMenu="matMenu">
-  <button mat-menu-item *ngFor="let language of languages" (click)="setLanguage(language)">
+  <button mat-menu-item *ngFor="let language of languages" (click)="setLanguage(language)" translate>
     {{ language }}
   </button>
 </mat-menu>

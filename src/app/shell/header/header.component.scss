@@ -9,23 +9,16 @@
   background-color: #0000c8;
 }
 
-a,
-.mat-icon-color,
-span {
-  color: white !important;
-}
-
 .menu-button {
   margin-right: 1rem;
 }
 
 .logo {
   height: 40px;
-  margin: 0 4px 3px 0;
   vertical-align: middle;
 }
 
-.logo:hover {
+.home:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.1);
@@ -40,9 +33,5 @@ span {
 }
 
 .mat-menu-item {
-  color: black;
-}
-
-.donate-button {
-  color: red !important;
+  color: black !important;
 }

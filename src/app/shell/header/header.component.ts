@@ -4,6 +4,22 @@ import { Router } from '@angular/router';
 import { MatSidenav } from '@angular/material/sidenav';
 
 import { AuthenticationService, CredentialsService } from '@app/auth';
+import {
+  faCoffee,
+  faSign,
+  faSignInAlt,
+  faSignOutAlt,
+  faRegistered,
+  faUserPlus,
+  faDonate,
+  faNewspaper,
+  faProjectDiagram,
+  faChartPie,
+  faUsers,
+  faInfo,
+  faInfoCircle,
+  faUser,
+} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -12,6 +28,16 @@ import { AuthenticationService, CredentialsService } from '@app/auth';
 })
 export class HeaderComponent implements OnInit {
   @Input() sidenav!: MatSidenav;
+  faSignInAlt = faSignInAlt;
+  faSignOutAlt = faSignOutAlt;
+  faUserPlus = faUserPlus;
+  faDonate = faDonate;
+  faNewspaper = faNewspaper;
+  faProjectDiagram = faProjectDiagram;
+  faChartPie = faChartPie;
+  faUsers = faUsers;
+  faInfoCircle = faInfoCircle;
+  faUser = faUser;
 
   constructor(
     private router: Router,

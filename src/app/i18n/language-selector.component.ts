@@ -10,7 +10,6 @@ import { I18nService } from './i18n.service';
 export class LanguageSelectorComponent implements OnInit {
   @Input() icon = false;
   language: string;
-
   constructor(private i18nService: I18nService) {}
 
   ngOnInit() {}
