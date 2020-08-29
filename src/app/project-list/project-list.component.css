@@ -55,3 +55,7 @@ a {
     max-width: 100%;
   }
 }
+
+.fa-icon {
+  size: 40px !important;
+}

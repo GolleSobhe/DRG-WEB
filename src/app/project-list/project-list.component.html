@@ -30,6 +30,7 @@
     <div class="column" *ngFor="let item of team">
       <mat-card class="profile-card" appElevation>
         <mat-card-content>
+          <fa-icon [icon]="item.icon" class="fa-3x"></fa-icon>
           <h1>{{ item.title }}</h1>
           <p>{{ item.description }}</p>
         </mat-card-content>
