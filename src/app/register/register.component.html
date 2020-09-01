@@ -42,6 +42,13 @@
           </mat-form-field>
 
           <mat-form-field [hideRequiredMarker]="true">
+            <mat-label translate>Birth day</mat-label>
+            <input matInput [matDatepicker]="birthDay" formControlName="birthDay" />
+            <mat-datepicker-toggle matSuffix [for]="birthDay"></mat-datepicker-toggle>
+            <mat-datepicker #birthDay color="primary"></mat-datepicker>
+          </mat-form-field>
+
+          <mat-form-field [hideRequiredMarker]="true">
             <input type="text" matInput formControlName="city" autocomplete="city" [placeholder]="'City' | translate" />
           </mat-form-field>
 

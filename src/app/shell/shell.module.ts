@@ -18,6 +18,7 @@ import { LoginComponent } from '../login/login.component';
 import { ProjectListComponent } from '../project-list/project-list.component';
 import { ProjectItemComponent } from '../project-item/project-item.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ChartComponent } from '../chart/charter.component';
 
 @NgModule({
   imports: [
@@ -40,6 +41,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     LoginComponent,
     ProjectListComponent,
     ProjectItemComponent,
+    ChartComponent,
   ],
 })
 export class ShellModule {}

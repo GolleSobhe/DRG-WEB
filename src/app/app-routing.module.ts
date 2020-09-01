@@ -6,6 +6,7 @@ import { extract } from './i18n';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { ProjectListComponent } from './project-list/project-list.component';
+import { ChartComponent } from './chart/charter.component';
 
 const routes: Routes = [
   Shell.childRoutes([
@@ -14,6 +15,7 @@ const routes: Routes = [
     { path: 'login', component: LoginComponent, data: { title: extract('Login') } },
     { path: 'register', component: RegisterComponent, data: { title: extract('Register') } },
     { path: 'projects', component: ProjectListComponent, data: { title: extract('Our projects') } },
+    { path: 'chart', component: ChartComponent, data: { title: extract('Our charter') } },
   ]),
   // Fallback when no prior route is matched
   { path: '**', redirectTo: '', pathMatch: 'full' },
