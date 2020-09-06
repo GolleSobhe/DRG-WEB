@@ -5,20 +5,17 @@ import { MatSidenav } from '@angular/material/sidenav';
 
 import { AuthenticationService, CredentialsService } from '@app/auth';
 import {
-  faCoffee,
-  faSign,
   faSignInAlt,
   faSignOutAlt,
-  faRegistered,
   faUserPlus,
   faDonate,
   faNewspaper,
   faProjectDiagram,
   faChartPie,
   faUsers,
-  faInfo,
   faInfoCircle,
   faUser,
+  faHome,
 } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -38,6 +35,7 @@ export class HeaderComponent implements OnInit {
   faUsers = faUsers;
   faInfoCircle = faInfoCircle;
   faUser = faUser;
+  faHome = faHome;
 
   constructor(
     private router: Router,

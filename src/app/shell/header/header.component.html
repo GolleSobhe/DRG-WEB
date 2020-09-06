@@ -7,9 +7,8 @@
 
   <div fxHide.lt-md>
     <button mat-button routerLink="/" routerLinkActive="active">
-      <img src="assets/images/logo.jpeg" alt="DRG" class="logo mat-focus-indicator mat-button mat-button-base" /><span
-        ><strong>DRG</strong></span
-      >
+      <fa-icon [icon]="faHome"></fa-icon>
+      <span translate>Home</span>
     </button>
 
     <button mat-button [matMenuTriggerFor]="menu" routerLinkActive="active">
